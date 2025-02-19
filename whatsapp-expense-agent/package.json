@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-expense-tracker",
+  "version": "1.0.0",
+  "description": "An AI-powered WhatsApp bot to track expenses using OCR, Firestore, and Engagespot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node tests/firebase.test.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase": "^11.3.1",
+    "nodemailer": "^6.10.0",
+    "openai": "^4.85.1",
+    "tesseract.js": "^6.0.0"
+  }
+}
